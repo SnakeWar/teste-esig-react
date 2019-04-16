@@ -1,10 +1,12 @@
 import React from 'react';
-import api from '../../src/services/api';
+import api from '../../services/api';
+import "./styles.css";
 
 export default class Main extends React.Component{
 
     state = {
         products: [],
+        contagem: 1,
     }
 
     componentDidMount() {
@@ -23,8 +25,14 @@ export default class Main extends React.Component{
 
     render() {
         return (
-            <div>
-                <h1>Products</h1>
+            <div className='product-list'>
+                {this.state.products.map(product => (
+                    <article key={product.id}>
+                        <strong>{product.product_name}</strong>
+                        <p>{product.product_description}</p>
+                        <a href=''>Acessar</a>
+                    </article>
+                ))}
 
             </div>
         )

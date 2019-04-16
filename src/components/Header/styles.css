@@ -1,12 +1,13 @@
 header#main-header {
     width: 100%;
-    height: 60px;
-    background: #da552f;
+    height: 80px;
+    background: #fafafb;
     font-size: 18px;
     font-weight: bold;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('http://localhost/images/esig.png');
+    /*background-image: url('http://localhost/images/esig.png');*/
+    /*background-position: center;*/
 }

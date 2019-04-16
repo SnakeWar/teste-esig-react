@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import Header from './components/Header/index';
-import Main from './pages/index';
+import Main from './pages/main';
 
 
 
