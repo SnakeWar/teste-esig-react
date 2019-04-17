@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="552d4164-3827-4037-abf4-f792cd64da51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/product/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/product/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/api.js" afterDir="false" />
-    </list>
+    <list default="true" id="552d4164-3827-4037-abf4-f792cd64da51" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +22,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/product/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -79,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/main/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
@@ -253,7 +241,7 @@
       <workItem from="1555502443635" duration="5467000" />
       <workItem from="1555513226511" duration="1273000" />
       <workItem from="1555514532989" duration="126000" />
-      <workItem from="1555514706848" duration="8479000" />
+      <workItem from="1555514706848" duration="8629000" />
     </task>
     <task id="LOCAL-00001" summary="Iniciar">
       <created>1555427103977</created>
@@ -269,11 +257,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555431820682</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Configurar rotas">
+      <created>1555526076056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555526076056</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Criar Subpage de Produtos">
+      <created>1555526102867</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555526102867</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26563000" />
+    <option name="totallyTimeSpent" value="26713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="958" height="1043" extended-state="0" />
@@ -306,7 +308,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Iniciar" />
     <MESSAGE value="Listar Produtos da API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Listar Produtos da API" />
+    <MESSAGE value="Configurar rotas" />
+    <MESSAGE value="Subpage de Produtos" />
+    <MESSAGE value="Criar Subpage de Produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar Subpage de Produtos" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.css" />
@@ -376,23 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/product/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/product/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/main/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -407,6 +395,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/product/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/product/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
